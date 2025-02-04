@@ -62,6 +62,8 @@ body {
   background-image: url(../images/cover.jpg);
   background-position: center;
   height: 757px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .overlay {
   background-color: black;
@@ -79,12 +81,12 @@ body {
   width: 1000px;
   height: 385px;
   top: 165px;
-  margin-left: 50px;
+
   color: #fff;
   position: relative;
   z-index: 3;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 286px 327px 387px;
   grid-template-rows: repeat(3, 1fr);
   font-weight: 700;
   font-size: 100px;
@@ -103,7 +105,7 @@ body {
   grid-row-end: 3;
   width: 339px;
   height: 115px;
-  margin-left: 27px;
+  margin-left: 44.5px;
 }
 
 .lower_word {
@@ -124,7 +126,7 @@ body {
   align-items: center;
   z-index: 2;
   top: 656px;
-  margin-left: 50px;
+
   text-transform: uppercase;
 }
 
@@ -172,6 +174,7 @@ body {
 }
 
 .lots_cards {
+  height: 596px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -203,7 +206,6 @@ body {
   min-height: 596px;
   display: flex;
   background-position: center;
-  margin-top: 27px;
   padding: 48px 40px 48px 40px;
   background-image: url(../images/card-lot-01.jpg);
   position: relative;
@@ -227,7 +229,7 @@ body {
   width: 334px;
   min-height: 596px;
   padding: 48px 40px 48px 40px;
-  margin-top: 27px;
+
   background-image: url(../images/card-lot-02.jpg);
   position: relative;
   background-position: center;
@@ -237,7 +239,7 @@ body {
   width: 334px;
   min-height: 596px;
   padding: 48px 40px 48px 40px;
-  margin-top: 27px;
+
   background-image: url(../images/card-lot-03.jpg);
   position: relative;
   background-position: center;
