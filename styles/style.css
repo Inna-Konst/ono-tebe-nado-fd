@@ -262,7 +262,6 @@
 
 .about_title {
   width: 291px;
-  height: 47px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -287,8 +286,8 @@
 }
 
 .footer {
-  height: 180px;
   display: grid;
+  padding-bottom: 82px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   padding-right: 50px;
@@ -301,7 +300,6 @@
 
 .footer_nav {
   width: 164px;
-  height: 64px;
   justify-self: center;
 }
 
@@ -320,7 +318,6 @@
 
 .socials {
   width: 240px;
-  height: 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
