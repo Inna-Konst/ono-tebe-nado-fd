@@ -75,7 +75,7 @@
   color: #fff;
   position: relative;
   z-index: 3;
-  line-height: 115px;
+  line-height: 130px;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
@@ -89,14 +89,12 @@
 .aligned-text_center {
   display: block;
   text-align: center;
-  margin-top: 17px;
   margin-left: 20px;
 }
 
 .aligned-text_right {
   display: block;
   text-align: end;
-  margin-top: 17px;
 }
 
 .no-letter-spacing {
@@ -234,7 +232,6 @@
 
 .about {
   width: 1052px;
-  min-height: 595px;
   margin-top: 120px;
   margin-left: 24px;
   margin-right: 24px;
@@ -265,11 +262,11 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 .about_article {
   width: 693px;
-  min-height: 449px;
   margin-top: 133px;
   display: flex;
   flex-direction: column;
